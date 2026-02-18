@@ -1,23 +1,14 @@
-# Core OCR Engine
-paddlepaddle==2.6.1
+# Core AI Engines
+paddlepaddle==2.6.2
 paddleocr==2.7.3
+numpy<2.0.0
+protobuf==3.20.3
 
-# PDF Processing
+# PDF & Image Processing
+pdf2image
 PyMuPDF==1.24.3
-ocrmypdf==16.4.3
+Pillow<11.0.0
+opencv-python-headless
 
-# Layout Analysis
-surya-ocr==0.6.12
-
-# Image Processing
-Pillow==12.1.1
-opencv-python-headless==4.10.0.84
-numpy==1.26.4
-
-# Task Queue
-celery==5.4.0
-redis==5.0.8
-
-# Testing
-pytest==8.3.2
-pytest-cov==5.0.0
+# Utilities
+tqdm
