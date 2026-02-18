@@ -1,0 +1,49 @@
+# Scorecard Schema
+# Generated after model evaluation against the Golden Test Set
+{
+    "model_name": "PP-OCRv4_rec_uz",
+    "model_version": "",
+    "evaluation_date": "",
+    "git_commit_hash": "",
+    "model_sha256": "",
+    "evaluator": "",
+    "golden_test_set_version": "1.0",
+    "metrics": {
+        "overall_cer": null,
+        "overall_accuracy": null,
+        "uzbek_cyrillic_cer": null,
+        "uzbek_latin_cer": null,
+        "russian_cer": null,
+        "english_cer": null,
+        "stamp_detection_iou": null,
+        "table_detection_iou": null
+    },
+    "category_breakdown": {
+        "simple_text": {
+            "count": 40,
+            "cer": null,
+            "accuracy": null
+        },
+        "tables": {
+            "count": 30,
+            "cer": null,
+            "accuracy": null
+        },
+        "stamps_signatures": {
+            "count": 20,
+            "detection_iou": null
+        },
+        "poor_scans": {
+            "count": 10,
+            "cer": null,
+            "accuracy": null
+        }
+    },
+    "pass_criteria": {
+        "cer_threshold": 0.01,
+        "stamp_iou_threshold": 0.95,
+        "all_passed": false
+    },
+    "builder_signature": "",
+    "auditor_signature": ""
+}

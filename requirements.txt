@@ -1,0 +1,29 @@
+# Sovereign Uzbek OCR Pipeline - Dependencies
+# All wheels must be vendored in vendor/ for air-gapped deployment
+# Install with: pip install --no-index --find-links=vendor/ -r requirements.txt
+
+# PDF Processing
+PyMuPDF>=1.24.0
+ocrmypdf>=16.0.0
+
+# OCR Engine
+paddlepaddle>=2.6.0
+paddleocr>=2.8.0
+
+# Layout Analysis
+surya-ocr>=0.6.0
+
+# Image Processing
+Pillow>=10.0.0
+opencv-python-headless>=4.9.0
+
+# Task Queue
+celery>=5.4.0
+redis>=5.0.0
+
+# Utilities
+numpy>=1.26.0
+pyyaml>=6.0.0
+
+# Testing
+pytest>=8.0.0
