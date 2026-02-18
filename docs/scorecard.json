@@ -1,0 +1,43 @@
+{
+  "model_name": "PP-OCRv4_rec_uzbek",
+  "model_version": "v1.0",
+  "dictionary": "uz_ru_en_dict.txt",
+  "evaluation_date": "YYYY-MM-DD",
+  "git_commit": "",
+  "model_sha256": "",
+  "metrics": {
+    "cer": {
+      "overall": null,
+      "simple_text": null,
+      "tables": null,
+      "stamps_signatures": null,
+      "poor_scans": null
+    },
+    "stamp_detection_iou": null,
+    "avg_page_confidence": null
+  },
+  "golden_test_set": {
+    "total_pages": 100,
+    "composition": {
+      "simple_text": 40,
+      "tables": 30,
+      "stamps_signatures": 20,
+      "poor_scans": 10
+    }
+  },
+  "thresholds": {
+    "cer_max": 0.01,
+    "stamp_iou_min": 0.95,
+    "confidence_accept": 0.90,
+    "confidence_reject": 0.40
+  },
+  "builder": {
+    "name": "",
+    "date": ""
+  },
+  "auditor": {
+    "name": "",
+    "date": "",
+    "gpg_signature": ""
+  }
+}
