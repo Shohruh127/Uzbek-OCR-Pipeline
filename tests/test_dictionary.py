@@ -105,7 +105,6 @@ class TestLoadDictionary:
             f.write("\n")
             f.write("# Another comment\n")
             f.write("C\n")
-            f.name
 
         try:
             chars = load_dictionary(f.name)

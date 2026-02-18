@@ -1,5 +1,3 @@
-# Scorecard Schema
-# Generated after model evaluation against the Golden Test Set
 {
     "model_name": "PP-OCRv4_rec_uz",
     "model_version": "",
